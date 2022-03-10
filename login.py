@@ -15,9 +15,9 @@ url = 'https://accounts.google.com/ServiceLogin?service=accountsettings&continue
 driver.get(url)
 
 
-wait.until(EC.visibility_of_element_located(By.NAME, 'identifier').send_keys(mail_address)
+wait.until(EC.visibility_of_element_located(By.NAME, 'identifier').send_keys(mail_address))
 sleep(2)
-wait.until(EC.visibility_of_element_located(By.NAME, 'password').send_keys(password)
+wait.until(EC.visibility_of_element_located(By.NAME, 'password').send_keys(password))
 print("You're in!! enjoy")
 
 
