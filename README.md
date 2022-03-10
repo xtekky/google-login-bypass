@@ -9,4 +9,5 @@ Undetecte selenium google login bypass script
 ## Required packages
 - undetected-chromedriver  `pip install undetected-chromedriver`
 
+credits: https://github.com/xtekky
 
