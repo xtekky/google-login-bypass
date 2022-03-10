@@ -1,5 +1,5 @@
 # Google-login bypass
-Undetecte selenium google login bypass script
+Undetected selenium google login bypass script
 
 ## Replace
  - replace email and password line 6 and 7
