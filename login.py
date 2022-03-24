@@ -17,6 +17,7 @@ driver.get(url)
 wait.until(EC.visibility_of_element_located((By.NAME, 'identifier'))).send_keys(email)
 wait.until(EC.visibility_of_element_located((By.NAME, 'password'))).send_keys(password)
 print("You're in!! enjoy")
+sleep(10)
 
 # [ ---------- paste your code here ---------- ]
 
