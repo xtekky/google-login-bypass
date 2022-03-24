@@ -11,7 +11,8 @@ Youtube tutorial: [youtube.com/google-login-bypass](https://youtu.be/GcTGurNyf6Y
 ![image](https://user-images.githubusercontent.com/98614666/157562373-526db685-ae97-430c-8cf3-73235b883adb.png)
 
 ## Required packages
-- undetected-chromedriver  `pip install undetected-chromedriver`
+- undetected-chromedriver  
+```pip install undetected-chromedriver```
 
 credits: https://github.com/xtekky
 
