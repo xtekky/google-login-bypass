@@ -4,7 +4,7 @@ Undetected selenium google login bypass script
 Youtube tutorial: [youtube.com/google-login-bypass](https://youtu.be/GcTGurNyf6Y)
 
 ## Replace
- - replace email and password line 7 and 8
+ - replace email and password line 24 and 25
 
 ## Error example
 - This script is going to bypass this login error when using selenium:
