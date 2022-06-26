@@ -7,12 +7,11 @@ class Main:
   def __init_(self) -> None:
     self.url    = 'https://accounts.google.com/ServiceLogin'
     self.driver = driver = uc.Chrome(use_subprocess=True)
-    self.wait   = WebDriverWait(driver, 20)
     self.time   = 10
     
   def login(self, email, password):
-    wait.until(EC.visibility_of_element_located((By.NAME, 'identifier'))).send_keys(f'{email}\n)
-    wait.until(EC.visibility_of_element_located((By.NAME, 'password'))).send_keys(f'{password}\n)
+    WebDriverWait(self.driver, 20).until(EC.visibility_of_element_located((By.NAME, 'identifier'))).send_keys(f'{email}\n)
+    WebDriverWait(self.driver, 20).until(EC.visibility_of_element_located((By.NAME, 'password'))).send_keys(f'{password}\n)
                                                                                 
     self.code()
                                                                                   
